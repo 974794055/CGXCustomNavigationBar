@@ -43,6 +43,7 @@
 //    [self addLeftBarAllTitle:@"哈哈"  Image:[UIImage imageNamed:@"CartAdd"] Block:^(UIButton *btn) {
 //        NSLog(@"文--字---%@--%ld" , btn,btn.tag);;
 //    }];
+    
     [self addLeftBarAllMoreTitle:@[@"哈",@"哈",@"哈"] Color:@[[UIColor blackColor],[UIColor blackColor],[UIColor blackColor]] Font:@[[UIFont systemFontOfSize:14],[UIFont systemFontOfSize:14],[UIFont systemFontOfSize:14]] Image:@[[UIImage imageNamed:@"ArrowLeft"],[UIImage imageNamed:@"ArrowLeft"],[UIImage imageNamed:@"ArrowLeft"]] Type:EdgeInsetsStyleTop Block:^(UIButton *btn) {
         NSLog(@"文--字---%@--%ld" , btn,(long)btn.tag);;
     }];
