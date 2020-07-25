@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040527602266D8E300B39470 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0405275F2266D8E300B39470 /* MainViewController.m */; };
+		048286E022782CD500C3A62B /* CGXCustomNavigationBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 048286CD22782CD500C3A62B /* CGXCustomNavigationBar.bundle */; };
+		048286E122782CD500C3A62B /* CGXBarButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 048286CE22782CD500C3A62B /* CGXBarButtonView.m */; };
+		048286E222782CD500C3A62B /* CGXBarUINavigationConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 048286CF22782CD500C3A62B /* CGXBarUINavigationConfig.m */; };
+		048286E322782CD500C3A62B /* UIViewController+CGXBarButtonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 048286D022782CD500C3A62B /* UIViewController+CGXBarButtonBase.m */; };
+		048286E422782CD500C3A62B /* UINavigationBar+CGXBarFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 048286D222782CD500C3A62B /* UINavigationBar+CGXBarFixSpace.m */; };
+		048286E522782CD500C3A62B /* UINavigationItem+CGXBarFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 048286D522782CD500C3A62B /* UINavigationItem+CGXBarFixSpace.m */; };
+		048286E622782CD500C3A62B /* NSObject+CGXBarRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = 048286D622782CD500C3A62B /* NSObject+CGXBarRuntime.m */; };
+		048286E722782CD500C3A62B /* UIButton+CGXBarButtonImageTitleSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = 048286D822782CD500C3A62B /* UIButton+CGXBarButtonImageTitleSpace.m */; };
+		048286E822782CD500C3A62B /* UIButton+CGXBarButtonBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = 048286D922782CD500C3A62B /* UIButton+CGXBarButtonBlock.m */; };
+		048286E922782CD500C3A62B /* UIBarButtonItem+CGXBarButtonItemCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = 048286DD22782CD500C3A62B /* UIBarButtonItem+CGXBarButtonItemCreate.m */; };
+		04BF496B22CD979100D13F90 /* UIBarButtonItem+CGXBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF496A22CD979100D13F90 /* UIBarButtonItem+CGXBarButtonItem.m */; };
+		04BF496E22CD993100D13F90 /* CGXBarButtonItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BF496D22CD993100D13F90 /* CGXBarButtonItemModel.m */; };
+		04E01DF22265E12D00B21D30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E01DF12265E12D00B21D30 /* AppDelegate.m */; };
+		04E01DF52265E12D00B21D30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E01DF42265E12D00B21D30 /* ViewController.m */; };
+		04E01DF82265E12D00B21D30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E01DF62265E12D00B21D30 /* Main.storyboard */; };
+		04E01DFA2265E12F00B21D30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E01DF92265E12F00B21D30 /* Assets.xcassets */; };
+		04E01DFD2265E12F00B21D30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E01DFB2265E12F00B21D30 /* LaunchScreen.storyboard */; };
+		04E01E002265E12F00B21D30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E01DFF2265E12F00B21D30 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0405275E2266D8E300B39470 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		0405275F2266D8E300B39470 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		048286CB22782CD500C3A62B /* UIViewController+CGXBarButtonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CGXBarButtonBase.h"; sourceTree = "<group>"; };
+		048286CC22782CD500C3A62B /* UIBarButtonItem+CGXBarButtonItemCreate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CGXBarButtonItemCreate.h"; sourceTree = "<group>"; };
+		048286CD22782CD500C3A62B /* CGXCustomNavigationBar.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CGXCustomNavigationBar.bundle; sourceTree = "<group>"; };
+		048286CE22782CD500C3A62B /* CGXBarButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXBarButtonView.m; sourceTree = "<group>"; };
+		048286CF22782CD500C3A62B /* CGXBarUINavigationConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGXBarUINavigationConfig.m; sourceTree = "<group>"; };
+		048286D022782CD500C3A62B /* UIViewController+CGXBarButtonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CGXBarButtonBase.m"; sourceTree = "<group>"; };
+		048286D222782CD500C3A62B /* UINavigationBar+CGXBarFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+CGXBarFixSpace.m"; sourceTree = "<group>"; };
+		048286D322782CD500C3A62B /* UIButton+CGXBarButtonImageTitleSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CGXBarButtonImageTitleSpace.h"; sourceTree = "<group>"; };
+		048286D422782CD500C3A62B /* UIButton+CGXBarButtonBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CGXBarButtonBlock.h"; sourceTree = "<group>"; };
+		048286D522782CD500C3A62B /* UINavigationItem+CGXBarFixSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+CGXBarFixSpace.m"; sourceTree = "<group>"; };
+		048286D622782CD500C3A62B /* NSObject+CGXBarRuntime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CGXBarRuntime.m"; sourceTree = "<group>"; };
+		048286D722782CD500C3A62B /* UINavigationBar+CGXBarFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+CGXBarFixSpace.h"; sourceTree = "<group>"; };
+		048286D822782CD500C3A62B /* UIButton+CGXBarButtonImageTitleSpace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CGXBarButtonImageTitleSpace.m"; sourceTree = "<group>"; };
+		048286D922782CD500C3A62B /* UIButton+CGXBarButtonBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CGXBarButtonBlock.m"; sourceTree = "<group>"; };
+		048286DA22782CD500C3A62B /* NSObject+CGXBarRuntime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+CGXBarRuntime.h"; sourceTree = "<group>"; };
+		048286DB22782CD500C3A62B /* UINavigationItem+CGXBarFixSpace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+CGXBarFixSpace.h"; sourceTree = "<group>"; };
+		048286DD22782CD500C3A62B /* UIBarButtonItem+CGXBarButtonItemCreate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CGXBarButtonItemCreate.m"; sourceTree = "<group>"; };
+		048286DE22782CD500C3A62B /* CGXBarUINavigationConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXBarUINavigationConfig.h; sourceTree = "<group>"; };
+		048286DF22782CD500C3A62B /* CGXBarButtonViewType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGXBarButtonViewType.h; sourceTree = "<group>"; };
+		048286EA22782D1B00C3A62B /* CGXBarButtonView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGXBarButtonView.h; sourceTree = "<group>"; };
+		04BF496922CD979100D13F90 /* UIBarButtonItem+CGXBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+CGXBarButtonItem.h"; sourceTree = "<group>"; };
+		04BF496A22CD979100D13F90 /* UIBarButtonItem+CGXBarButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+CGXBarButtonItem.m"; sourceTree = "<group>"; };
+		04BF496C22CD993100D13F90 /* CGXBarButtonItemModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CGXBarButtonItemModel.h; sourceTree = "<group>"; };
+		04BF496D22CD993100D13F90 /* CGXBarButtonItemModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CGXBarButtonItemModel.m; sourceTree = "<group>"; };
+		04E01DED2265E12D00B21D30 /* CGXCustomNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGXCustomNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04E01DF02265E12D00B21D30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04E01DF12265E12D00B21D30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04E01DF32265E12D00B21D30 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04E01DF42265E12D00B21D30 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04E01DF72265E12D00B21D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04E01DF92265E12F00B21D30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04E01DFC2265E12F00B21D30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04E01DFE2265E12F00B21D30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04E01DFF2265E12F00B21D30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04E01DEA2265E12D00B21D30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		048286C922782CD500C3A62B /* Souce */ = {
+			isa = PBXGroup;
+			children = (
+				048286CA22782CD500C3A62B /* CGXCustomNavigationBar */,
+			);
+			name = Souce;
+			path = ../../Souce;
+			sourceTree = "<group>";
+		};
+		048286CA22782CD500C3A62B /* CGXCustomNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				048286EA22782D1B00C3A62B /* CGXBarButtonView.h */,
+				048286CE22782CD500C3A62B /* CGXBarButtonView.m */,
+				048286DE22782CD500C3A62B /* CGXBarUINavigationConfig.h */,
+				048286CF22782CD500C3A62B /* CGXBarUINavigationConfig.m */,
+				048286DF22782CD500C3A62B /* CGXBarButtonViewType.h */,
+				048286CB22782CD500C3A62B /* UIViewController+CGXBarButtonBase.h */,
+				048286D022782CD500C3A62B /* UIViewController+CGXBarButtonBase.m */,
+				048286CC22782CD500C3A62B /* UIBarButtonItem+CGXBarButtonItemCreate.h */,
+				048286DD22782CD500C3A62B /* UIBarButtonItem+CGXBarButtonItemCreate.m */,
+				04BF496922CD979100D13F90 /* UIBarButtonItem+CGXBarButtonItem.h */,
+				04BF496A22CD979100D13F90 /* UIBarButtonItem+CGXBarButtonItem.m */,
+				04BF496C22CD993100D13F90 /* CGXBarButtonItemModel.h */,
+				04BF496D22CD993100D13F90 /* CGXBarButtonItemModel.m */,
+				048286CD22782CD500C3A62B /* CGXCustomNavigationBar.bundle */,
+				048286D122782CD500C3A62B /* common */,
+			);
+			path = CGXCustomNavigationBar;
+			sourceTree = "<group>";
+		};
+		048286D122782CD500C3A62B /* common */ = {
+			isa = PBXGroup;
+			children = (
+				048286D722782CD500C3A62B /* UINavigationBar+CGXBarFixSpace.h */,
+				048286D222782CD500C3A62B /* UINavigationBar+CGXBarFixSpace.m */,
+				048286DB22782CD500C3A62B /* UINavigationItem+CGXBarFixSpace.h */,
+				048286D522782CD500C3A62B /* UINavigationItem+CGXBarFixSpace.m */,
+				048286DA22782CD500C3A62B /* NSObject+CGXBarRuntime.h */,
+				048286D622782CD500C3A62B /* NSObject+CGXBarRuntime.m */,
+				048286D322782CD500C3A62B /* UIButton+CGXBarButtonImageTitleSpace.h */,
+				048286D822782CD500C3A62B /* UIButton+CGXBarButtonImageTitleSpace.m */,
+				048286D422782CD500C3A62B /* UIButton+CGXBarButtonBlock.h */,
+				048286D922782CD500C3A62B /* UIButton+CGXBarButtonBlock.m */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		04E01DE42265E12D00B21D30 = {
+			isa = PBXGroup;
+			children = (
+				04E01DEF2265E12D00B21D30 /* CGXCustomNavigationBar */,
+				04E01DEE2265E12D00B21D30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04E01DEE2265E12D00B21D30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04E01DED2265E12D00B21D30 /* CGXCustomNavigationBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04E01DEF2265E12D00B21D30 /* CGXCustomNavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				04E01DF02265E12D00B21D30 /* AppDelegate.h */,
+				04E01DF12265E12D00B21D30 /* AppDelegate.m */,
+				04E01DF32265E12D00B21D30 /* ViewController.h */,
+				04E01DF42265E12D00B21D30 /* ViewController.m */,
+				0405275E2266D8E300B39470 /* MainViewController.h */,
+				0405275F2266D8E300B39470 /* MainViewController.m */,
+				048286C922782CD500C3A62B /* Souce */,
+				04E01DF62265E12D00B21D30 /* Main.storyboard */,
+				04E01DF92265E12F00B21D30 /* Assets.xcassets */,
+				04E01DFB2265E12F00B21D30 /* LaunchScreen.storyboard */,
+				04E01DFE2265E12F00B21D30 /* Info.plist */,
+				04E01DFF2265E12F00B21D30 /* main.m */,
+			);
+			path = CGXCustomNavigationBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04E01DEC2265E12D00B21D30 /* CGXCustomNavigationBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04E01E032265E12F00B21D30 /* Build configuration list for PBXNativeTarget "CGXCustomNavigationBar" */;
+			buildPhases = (
+				04E01DE92265E12D00B21D30 /* Sources */,
+				04E01DEA2265E12D00B21D30 /* Frameworks */,
+				04E01DEB2265E12D00B21D30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGXCustomNavigationBar;
+			productName = CGXCustomNavigationBar;
+			productReference = 04E01DED2265E12D00B21D30 /* CGXCustomNavigationBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04E01DE52265E12D00B21D30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = CGX;
+				TargetAttributes = {
+					04E01DEC2265E12D00B21D30 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 04E01DE82265E12D00B21D30 /* Build configuration list for PBXProject "CGXCustomNavigationBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04E01DE42265E12D00B21D30;
+			productRefGroup = 04E01DEE2265E12D00B21D30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04E01DEC2265E12D00B21D30 /* CGXCustomNavigationBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04E01DEB2265E12D00B21D30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E01DFD2265E12F00B21D30 /* LaunchScreen.storyboard in Resources */,
+				04E01DFA2265E12F00B21D30 /* Assets.xcassets in Resources */,
+				04E01DF82265E12D00B21D30 /* Main.storyboard in Resources */,
+				048286E022782CD500C3A62B /* CGXCustomNavigationBar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04E01DE92265E12D00B21D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048286E222782CD500C3A62B /* CGXBarUINavigationConfig.m in Sources */,
+				048286E122782CD500C3A62B /* CGXBarButtonView.m in Sources */,
+				048286E922782CD500C3A62B /* UIBarButtonItem+CGXBarButtonItemCreate.m in Sources */,
+				04E01DF52265E12D00B21D30 /* ViewController.m in Sources */,
+				048286E622782CD500C3A62B /* NSObject+CGXBarRuntime.m in Sources */,
+				04E01E002265E12F00B21D30 /* main.m in Sources */,
+				040527602266D8E300B39470 /* MainViewController.m in Sources */,
+				048286E822782CD500C3A62B /* UIButton+CGXBarButtonBlock.m in Sources */,
+				04BF496B22CD979100D13F90 /* UIBarButtonItem+CGXBarButtonItem.m in Sources */,
+				048286E322782CD500C3A62B /* UIViewController+CGXBarButtonBase.m in Sources */,
+				048286E522782CD500C3A62B /* UINavigationItem+CGXBarFixSpace.m in Sources */,
+				04BF496E22CD993100D13F90 /* CGXBarButtonItemModel.m in Sources */,
+				048286E422782CD500C3A62B /* UINavigationBar+CGXBarFixSpace.m in Sources */,
+				048286E722782CD500C3A62B /* UIButton+CGXBarButtonImageTitleSpace.m in Sources */,
+				04E01DF22265E12D00B21D30 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04E01DF62265E12D00B21D30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E01DF72265E12D00B21D30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		04E01DFB2265E12F00B21D30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04E01DFC2265E12F00B21D30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04E01E012265E12F00B21D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04E01E022265E12F00B21D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04E01E042265E12F00B21D30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 424D9G4X35;
+				INFOPLIST_FILE = CGXCustomNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CGX.CGXCustomNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04E01E052265E12F00B21D30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 424D9G4X35;
+				INFOPLIST_FILE = CGXCustomNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CGX.CGXCustomNavigationBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04E01DE82265E12D00B21D30 /* Build configuration list for PBXProject "CGXCustomNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E01E012265E12F00B21D30 /* Debug */,
+				04E01E022265E12F00B21D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04E01E032265E12F00B21D30 /* Build configuration list for PBXNativeTarget "CGXCustomNavigationBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04E01E042265E12F00B21D30 /* Debug */,
+				04E01E052265E12F00B21D30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04E01DE52265E12D00B21D30 /* Project object */;
+}
